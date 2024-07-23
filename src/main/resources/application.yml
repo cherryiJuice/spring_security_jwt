@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3307/security_jwt?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true"
+    username: root
+    password: yijuchoi711
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  jwt:
+    secret: "askdfjsdfiuiewieiojdmnxcnmxmnnmxcskjaskjiaiwooiwoaskdsj"
